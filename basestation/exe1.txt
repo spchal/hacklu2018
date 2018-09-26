@@ -1,0 +1,12 @@
+
+Osmo-nitb : http://ftp.osmocom.org/docs/latest/osmonitb-usermanual.pdf
+
+1. Does the configuration has encryption?
+2. What is the country code within the configuration?
+3. What is the network code? 
+4. View subscribers that exists from the bsc.
+5. What is the ARFCN value used in the BTS?
+6. Which band is the BTS configured to work on?
+7. What type of bts are we using ? What are the bands for GSM in Europe?
+8. What is the authentication policy that is used? 
+9. Create a subscriber - with imsi, extension. 
