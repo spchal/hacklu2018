@@ -5,6 +5,12 @@ Connect to the web service from your browser to see the incoming authentication 
 
 You can also see the logs of the osmo-bsc service to see the IMSI of the registered subscriber. 
 
+The interface for sniffing is tun0. 
+
+$ tcpdump -i tun0 -w my_name.pcap
+
+
+
 
 
 
