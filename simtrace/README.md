@@ -1,15 +1,15 @@
-####Get the software
+#### Get the software
 In order to run simtrace, we need the necessary software.
 Follow the instructions in https://osmocom.org/projects/simtrace2/wiki to install the software. 
 
-######simtrace2-list
+###### simtrace2-list
 ```
 ./simtrace2-list
 USB matches: 1
     1d50:60e3 Addr=4, Path=2-2.3, Cfg=1, Intf=0, Alt=0: 255/1/0 (SIMtrace Sniffer)
 ```
 
-######simtrace2-sniff
+###### simtrace2-sniff
 ```
 sudo ./simtrace2-sniff 
 [sudo] password for priya: 
