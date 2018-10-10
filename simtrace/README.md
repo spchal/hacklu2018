@@ -42,4 +42,4 @@ TPDU: 00 b2 02 04 26 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
 
 ###### Wireshark capture
 Open wireshark and start listening on localhost.
-The packets are seen as UDP packets with GSM_SIM dissector
+The packets are seen as UDP packets with GSM_SIM filter
