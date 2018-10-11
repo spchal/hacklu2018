@@ -10,3 +10,9 @@ MSISDN is the fancy name for the phone number. https://en.wikipedia.org/wiki/MSI
 
 
 
+Reference:
+
+[1] ISO 7816-4 : http://cardwerk.com/smart-card-standard-iso7816-4-section-5-basic-organizations/
+
+
+
