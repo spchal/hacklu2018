@@ -1,6 +1,8 @@
 We are going to use S6 SAMSUNG phones and O2 simcards for the testing. 
 If you have your own phones and VoLTE enabled SIM cards, that is ok too. But things might differ based on the provider. 
 
+Note: BASED ON RECENT TESTS AFTER COMING TO LUXEMBOURG, LOOKS LIKE THE SIMS DONT WANT TO DO VOLTE ANYMORE. SO IF YOU DONT SEE IT WORKING, IT IS NORMAL. 
+
 ###### Voice over LTE (VoLTE) interface
 Get a shell in the android phone with adb. 
 
@@ -8,9 +10,17 @@ Get a shell in the android phone with adb.
 Sniffing VoLTE interface :
 
 $ adb shell
-$ tcpdump -i rmnet1 -n -s 0 -w - | nc -l 127.0.0.1 -p 11233
+$ tcpdump -i rmnet0 -n -s 0 -w - | nc -l 127.0.0.1 -p 11233
 $ adb forward tcp:11233 tcp:11233 && nc 127.0.0.1 11233 | wireshark -k -S -i -
 
+```
+
+If you have issues with piping and stuff breaking, just try to save the tcpdump as a pcap and then pull that from the host machine. 
+```
+$ adb shell 
+# tcpdump -i rmnet0 -w /sdcard/test.pcap 
+# exit
+$ adb pull /sdcard/test.pcap /working/directory/
 ```
 
 The VoLTE interface is either named rmnet1 or rmnet0. The other one is the regular mobile data interface. 
