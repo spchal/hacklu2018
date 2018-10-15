@@ -46,12 +46,7 @@ pcsc_scan
 These are SIM/USIM cards which - unlike those issued by regular commercial operators - come with the kind of keys that allow you to write the files/fields that normally only an operator can program.
 If you are running your own cellular network, then you will need a SIM card provisioning tool such as pysim for programming the SIM card with your own keys. 
 
-
-2. Security in SIM - PIN, PUK, ADM
-3. sysmoSIM-GR1 programming
-4. sysmoUSIM-SjS1 programming
-5. ki 
-6. SIM authentication 
+Checkout [1] and follow the example to program your SIM card. Understand the various parameters used while programming. 
 
 Reference:
 
