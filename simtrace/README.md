@@ -42,4 +42,9 @@ TPDU: 00 b2 02 04 26 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
 
 ###### Wireshark capture
 Open wireshark and start listening on localhost.
-The packets are seen as UDP packets with GSM_SIM filter
+The packets are seen as UDP packets with GSM-SIM filter
+
+
+###### Reference
+[1]https://www.etsi.org/deliver/etsi_ts/102200_102299/102221/08.02.00_60/ts_102221v080200p.pdf
+[2]https://gnupg.org/ftp/specs/OpenPGP-smart-card-application-2.2.pdf
