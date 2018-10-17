@@ -1,6 +1,6 @@
 pySim-prog is a small command line utility written in python, which is used for programming various programmable SIM/USIM cards.
 
-Most of the content here is mainly from [1]. Take a look at thw wifi for more info.
+Most of the content here is mainly from [1]. Take a look at thw wiki for more info.
 
 pySim-prog is a small command line utility written in python, which is used for programming various programmable SIM/USIM cards.
 
