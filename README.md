@@ -1,5 +1,5 @@
 # hacklu2018
-This is a beginners workshop to understand the basics on telecommunication security and get started with the area. Telecommunication security is such a relevant field because of its massive impact as each and everyone of us owns a phone with a SIM card, uses 2G/3G or 4G technology. Even the new IoT world including critical devices such as health equipments, cars, and so on has a telco element attached to it. It is an unavoidable element of todays networks and communication. With this training, our main goal is to throw some light on the security aspects of telecommunication networks from a pentester's view. 
+This is a beginners workshop to understand the basics on telecommunication security and get started with the area. Telecommunication security is such a relevant field because of its massive impact as each and everyone of us owns a phone with a SIM card, uses 2G/3G or 4G technology. Even the new IoT world including critical devices such as health equipments, cars, and so on has a telco element attached to it. It is an unavoidable element of todays networks and communication. With this training, the main goal is to throw some light on the security aspects of telecommunication networks from a pentester's view. 
 
 There will be mainly three different handson sections during this training. They are as follows:
 
