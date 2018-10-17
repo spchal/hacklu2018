@@ -1,7 +1,6 @@
 We are going to use S6 SAMSUNG phones and O2 simcards for the testing. 
 If you have your own phones and VoLTE enabled SIM cards, that is ok too. But things might differ based on the provider. 
 
-Note: BASED ON RECENT TESTS AFTER COMING TO LUXEMBOURG, LOOKS LIKE THE SIMS DONT WANT TO DO VOLTE ANYMORE. SO IF YOU DONT SEE IT WORKING, IT IS NORMAL. 
 
 ###### Voice over LTE (VoLTE) interface
 Get a shell in the android phone with adb. 
