@@ -17,7 +17,7 @@ Repeat the same for socat if needed with socat binary instead of tcpdump
 
 
 ###### Installing simtrace2
-Before you start, check the hardware you got for the version of the simtrace. If it is simtrace1, get the respective package from the wiki and follow the instruction. Below information is if the simtrace is version 2. (simtrace-v2)
+Before you start, check the hardware you got for the version of the simtrace. If it is simtrace1, get the respective package from the wiki and follow the instruction. If the simtrace is version 2, follow the below instructions. (simtrace-v2)
 
 Wiki link: https://osmocom.org/projects/simtrace2/wiki
 
